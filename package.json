@@ -6,7 +6,10 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "build-init": "ng build --configuration production --base-href /pages-angular/",
+    "build-prod": "ng build --configuration production",
+    "ngh": "ngh --dir=dist/pages-angular"
   },
   "private": true,
   "dependencies": {
