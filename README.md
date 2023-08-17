@@ -29,3 +29,19 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Coming Soon
 
 Coming soon page by [tmKamal](https://github.com/tmKamal/under-construction-template)
+
+## GH Pages
+
+You'll need to install this to make publishing easier.
+
+```shell
+npm install -g angular-cli-ghpages
+```
+
+### Publishing
+
+Run these commands:
+
+1. `npm run build-init` (Only for the first time)
+1. `npm run build-prod`
+1. `npm run ngh`
